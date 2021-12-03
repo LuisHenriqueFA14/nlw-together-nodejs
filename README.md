@@ -14,7 +14,7 @@
 
 	[X] Não é possível cadastrar tag sem nome.
 
-	[ ] Não é possível o cadastro por usuários que não sejam administradores.
+	[X] Não é possível o cadastro por usuários que não sejam administradores.
 
 - Cadastro de elogios
 
@@ -22,4 +22,4 @@
 	
 	[X] Não é permitido cadastrar elogios para usuários inválidos.
 
-	[ ] O usuário precisa estar autenticado na aplicação
+	[X] O usuário precisa estar autenticado na aplicação

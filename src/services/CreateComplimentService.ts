@@ -17,7 +17,7 @@ class CreateComplimentService {
 		const usersRepositories = getCustomRepository(UsersRepositories);
 
 		if(userSender === userReceiver) {
-			throw new Error("Incorrect user Receiver")
+			throw new Error("Incorrect user Receiver");
 		}
 
 		const userReceiverExists = await usersRepositories.findOne(userReceiver);
