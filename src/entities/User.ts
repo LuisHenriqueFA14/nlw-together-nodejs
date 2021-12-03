@@ -3,7 +3,7 @@ import { v4 as uuid } from "uuid"
 import { Exclude } from "class-transformer"
 
 @Entity("users")
-export class User {
+class User {
 
 	@PrimaryColumn()
 	readonly id: string;
@@ -34,4 +34,4 @@ export class User {
 	}
 }
 
-module.exports = { User };
+export { User };
